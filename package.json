@@ -1,0 +1,30 @@
+{
+  "name": "sequelizedburger",
+  "version": "0.0.2",
+  "description": "Replacing basic ORMs with Sequelized Version",
+  "main": "server.js",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "sequelize": "^3.30.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewglassman/burgersequel.git"
+  },
+  "author": "Clauden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libanga2010/burgersequel/issues"
+  },
+  "homepage": "https://github.com/libanga2010/burgersequel#readme"
+}
